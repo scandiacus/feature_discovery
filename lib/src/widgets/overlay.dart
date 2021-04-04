@@ -274,7 +274,7 @@ class _DescribedFeatureOverlayState extends State<DescribedFeatureOverlay>
         _state != FeatureOverlayState.completing) {
       // If the _state is anything else, this overlay has to be showing,
       // otherwise something is wrong.
-      assert(_bloc.activeFeatureId == widget.featureId);
+      //assert(_bloc.activeFeatureId == widget.featureId);
 
       _bloc.activeOverlays--;
     }
